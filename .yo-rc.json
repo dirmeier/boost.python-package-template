@@ -1,0 +1,9 @@
+{
+  "generator-python-bones": {
+    "user": "Simon Dirmeier",
+    "email": "simon.dirmeier@web.de",
+    "projectID": "boost",
+    "desc": "An boost.python project example",
+    "githubuser": "dirmeier"
+  }
+}
