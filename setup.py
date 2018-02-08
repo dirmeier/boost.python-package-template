@@ -1,4 +1,5 @@
 from setuptools import setup, Extension
+import os
 
 
 def readme():
@@ -7,30 +8,21 @@ def readme():
 
 
 setup(
-  name='boost',
+  name='Boost Example',
   version='0.0.1',
-  description='An boost.python project example',
+  description='An boost.python project example implementing boost',
   long_description=readme(),
-  url='https://github.com/dirmeier/boost',
-  download_url='https://github.com/dirmeier/boost/tarball/0.0.1',
-  author='Simon Dirmeier',
   author_email='simon.dirmeier@web.de',
   license='GPLv3',
-  keywords=['?'],
+  keywords=['boost'],
   packages=['boost'],
-  ext_modules=[Extension('boost.module',
-                         sources=['src/modules.cpp', 'src/vector.hpp'],
-                         include_dirs=['/usr/local/include'],
-                         library_dirs=['/usr/local/lib/boost'],
-                         runtime_library_dirs=['/usr/local/lib/boost'],
-                         libraries=['boost_python'])],
-  install_requires=[
-      'numpy>=1.11.0',
-      'scipy>=0.18.0',
-      'pytest>=2.9.2',
-      'nose==1.3.7',
-      'sphinx>=1.4.5',
-      'scikit-learn >=0.17.0'
+  ext_modules=[
+      Extension('boost.modules',
+                ['src/modules.cpp'],
+                include_dirs=['src'],
+                library_dirs=['/'],
+                libraries=['boost_python'],
+                extra_compile_args=['-g', '-O3', '-Wall'])
   ],
   classifiers=[
       'Development Status :: 3 - Alpha',

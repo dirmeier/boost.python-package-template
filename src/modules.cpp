@@ -1,8 +1,10 @@
-#include <boost/python.hpp>
-#include "vector.hpp"
 
-boost::python::BOOST_PYTHON_MODULE(modules)
+#include <boost/python.hpp>
+#include "graph.hpp"
+
+using namespace boost::python;
+BOOST_PYTHON_MODULE(modules)
 {
-    boost::python::class_<vector>("vector")
-        .def("get", &vector::get);
+    class_<graph>("graph", init<>())
+        .def("get", &graph::get);
 }
