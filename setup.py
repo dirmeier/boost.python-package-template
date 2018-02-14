@@ -17,9 +17,9 @@ setup(
   keywords=['boost'],
   packages=['boost'],
   ext_modules=[
-      Extension('boost.modules',
-                ['src/modules.cpp'],
-                include_dirs=['src'],
+      Extension('boostmodules',
+                ['boost/src/modules.cpp'],
+                include_dirs=['boost/src'],
                 library_dirs=['/'],
                 libraries=['boost_python'],
                 extra_compile_args=['-g', '-O3', '-Wall'])

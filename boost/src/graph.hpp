@@ -8,10 +8,9 @@ class graph
 {
 public:
     graph(){};
-    std::vector<double> get()
+    double get()
     {
-        std::vector<double> vec(10);
-        return vec;
+        return 1.;
     }
 };
 
