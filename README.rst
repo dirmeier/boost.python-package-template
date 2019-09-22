@@ -13,24 +13,24 @@ Boost.python example project
 
  An example implementation of a python project that uses boost.python to extend python to C++.
 
-Introduction
-============
+About
+=====
 
-This repository is an example implementation of a python project that uses `boost.python` to extend python to C++.
+This repository is an example implementation of a python project that uses `boost.python` to extend python to C++. Modify everything, i.e. rename the package, etc., and that's it.
 
 Usage
 ============
 
 Either download the latest release and install using:
 
-```bash
-  pip install .
-```
+.. code-block:: bash
+    
+	pip install .
 
 
 Author
 ======
 
-- Simon Dirmeier <simon.dirmeier@web.de>
+Simon Dirmeier <simon.dirmeier@web.de>
 
 
