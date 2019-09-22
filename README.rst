@@ -1,9 +1,9 @@
-******************************
+****************************
 Boost.python example project
-******************************
+****************************
 
-.. image:: http://www.repostatus.org/badges/latest/concept.svg
-   :target: http://www.repostatus.org/#concept
+.. image:: http://www.repostatus.org/badges/latest/inactive.svg
+   :target: http://www.repostatus.org/#inactive
 .. image:: https://travis-ci.org/dirmeier/boost.python-example-project.svg?branch=master
    :target: https://travis-ci.org/dirmeier/boost.python-example-project/
 .. image:: https://codecov.io/gh/dirmeier/boost.python-example-project/branch/master/graph/badge.svg
