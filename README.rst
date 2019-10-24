@@ -6,10 +6,6 @@ Boost.python example project
    :target: http://www.repostatus.org/#inactive
 .. image:: https://travis-ci.org/dirmeier/boost.python-example-project.svg?branch=master
    :target: https://travis-ci.org/dirmeier/boost.python-example-project/
-.. image:: https://codecov.io/gh/dirmeier/boost.python-example-project/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/dirmeier/boost.python-example-project
-.. image:: https://readthedocs.org/projects/boost.python-example-project/badge/?version=latest
-   :target: http://boost.python-example-project.readthedocs.io/en/latest/?badge=latest
 
  An example implementation of a python project that uses boost.python to extend python to C++.
 
