@@ -1,13 +1,13 @@
-****************************
-Boost.python example project
-****************************
+*****************************
+boost.python-package-template
+*****************************
 
 .. image:: http://www.repostatus.org/badges/latest/inactive.svg
    :target: http://www.repostatus.org/#inactive
 .. image:: https://travis-ci.org/dirmeier/boost.python-example-project.svg?branch=master
    :target: https://travis-ci.org/dirmeier/boost.python-example-project/
 
- An example implementation of a python project that uses boost.python to extend python to C++.
+> An example implementation of a python project that uses boost.python to extend python to C++.
 
 About
 =====
